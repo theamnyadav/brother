@@ -3,17 +3,11 @@ import Image from "next/image";
 import Link from "next/link";
 const Navbar = () => {
   return (
-    <div className="bg-gray-200 min-h-screen flex flex-col">
-      <nav className="bg-gray-200 p-6">
-        <div className="container mx-auto flex items-center justify-center">
-          <Image
-            src="/bg.jpg"
-width={80} height={50}
-            alt=""
-          />
-          <div className="text-sm">
-           
-          </div>
+    <div className="bg-white min-h-screen flex flex-col">
+      <nav className="bg-white">
+        <div className=" mx-auto flex items-center justify-center">
+          <Image src="/brother.jpg" width={150} height={80} alt="" />
+          <div className="text-sm"></div>
         </div>
       </nav>
       <main className="container mx-auto py-20 flex-1">
